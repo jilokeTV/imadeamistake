@@ -15,8 +15,8 @@ class Title:
         print('Розташування: (',self.x, self.y,')') 
         print('Видимість:',self.appearance)
 
-winner_1=Title("Дізнатися переможця прямо зараз!", 150, 50)
-winner_1.print_status()
-winner_2=Title("Переможець може бути тільки один", 150, -100)
-winner_2.print_status()
-winner_2.hide()
+text_1=Title("Дізнатися переможця прямо зараз!", 150, 50)
+text_1.print_status()
+text_2=Title("Переможець може бути тільки один", 150, -100)
+text_2.print_status()
+text_2.hide()
