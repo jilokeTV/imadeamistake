@@ -12,7 +12,7 @@ class Title:
         print(self.text, "- відображено")
     def print_status(self):
         print('Надпис:', self.text)
-        print('Розташування:',"(",self.x, self.y,")") 
+        print('Розташування: (',self.x, self.y,')') 
         print('Видимість:',self.appearance)
 
 winner_1=Title("Дізнатися переможця прямо зараз!", 150, 50)
