@@ -1,17 +1,17 @@
 class Title:
-    def __init__(self, title_text, x_num, y_num):
-        self.title = title_text
-        self.x = x_num
-        self.y = y_num
+    def __init__(self, text, x, y):
+        self.text = text
+        self.x = x
+        self.y = y
         self.appearance = True
     def hide(self):
         self.appearance = False
-        print(self.title, "- приховано")
+        print(self.text, "- приховано")
     def show(self):
         self.appearance = True
-        print(self.title, "- відображено")
-    def print_status(self,):
-        print('Надпис:', self.title)
+        print(self.text, "- відображено")
+    def print_status(self):
+        print('Надпис:', self.text)
         print('Розташування:',"(",self.x, self.y,")") 
         print('Видимість:',self.appearance)
 
