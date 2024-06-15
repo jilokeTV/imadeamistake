@@ -1,9 +1,11 @@
-from PyQt6.QtCore import Qt
-from PyQt6.QtWidgets import QApplication, QWidget, QPushButton, QLabel, QVBoxLayout
+from PyQt5.QtCore import Qt
+from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QLabel, QVBoxLayout
 from random import randint
 
 app = QApplication([])
 win=QWidget()
+win.resize(150,150)
+win.move(100,100)
 
 text=QLabel("Натисніть, щоб дізнатися переможця:")
 number=QLabel("?")
